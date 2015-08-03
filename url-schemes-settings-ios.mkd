@@ -1,9 +1,13 @@
-To open any option of settings, you must first configure the URL Schemes in Info:
+Sometimes we need to open Setting's Preferences not of our app, but of the iPhone itself. What should we do to acomplish this?
+
+![keyboard](https://cloud.githubusercontent.com/assets/724536/9033179/41e2d7be-39c5-11e5-8c25-8d123923ae94.gif)
+
+
+1. You must configure the URL Schemes in your project. You will find it in Target, Info, URL Scheme. Once there, just type **prefs** 
 
 ![gif-settings](https://cloud.githubusercontent.com/assets/724536/9033051/567a347a-39c4-11e5-9885-1e26460beab3.gif)
 
-Later, just write this code
-
+2. Later, just write the code with the URL path of the preference needed. In my case was the keyboard path.
 
 ##Swift 
     
@@ -14,6 +18,7 @@ Later, just write this code
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=General&path=Keyboard"]];
 
 
+More info:
 
 **And there you have all the url's available:**
 
