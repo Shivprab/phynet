@@ -7,7 +7,7 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
 
 ![gif-settings](https://cloud.githubusercontent.com/assets/724536/9033051/567a347a-39c4-11e5-9885-1e26460beab3.gif)
 
- 2. Later, just write the code with the URL path of the preference needed. In my case was the keyboard path.
+ 2.- Later, just write the code with the URL path of the preference needed. In my case was the keyboard path.
 
 ##Swift 
     
