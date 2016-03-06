@@ -1,6 +1,7 @@
 Sometimes we need to open Setting's Preferences not of our app, but of the iPhone itself. What should we do to acomplish this?
 
-[UPDATE: Added Wallet And Apple Pay below]
+**[UPDATE: Added Wallet And Apple Pay below]**
+
 
 ![keyboard](https://cloud.githubusercontent.com/assets/724536/9033179/41e2d7be-39c5-11e5-8c25-8d123923ae94.gif)
 
@@ -30,7 +31,8 @@ More info:
     prefs:root=General&path=AUTOLOCK
     prefs:root=General&path=USAGE/CELLULAR_USAGE
     prefs:root=Brightness
-    prefs:root=General&path=Bluetooth
+    prefs:root=General&path=Bluetooth  
+    [UPDATE]prefs:root=Bluetooth
     prefs:root=General&path=DATE_AND_TIME
     prefs:root=FACETIME
     prefs:root=General
