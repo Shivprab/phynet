@@ -1,6 +1,7 @@
 Sometimes we need to open Setting's Preferences not of our app, but of the iPhone itself. What should we do to acomplish this?
 
 **[UPDATE: Added Wallet And Apple Pay below]**
+
 **[UPDATE: Changed prefs for Bluetooth]**
 
 
