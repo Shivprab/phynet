@@ -27,14 +27,17 @@ More info:
 
 **And there you have all the url's available:**
 
+    prefs: (for those who want the topmost level)
     prefs:root=General&path=About
     prefs:root=General&path=ACCESSIBILITY
     prefs:root=AIRPLANE_MODE
     prefs:root=General&path=AUTOLOCK
     prefs:root=General&path=USAGE/CELLULAR_USAGE
     prefs:root=Brightness
-    prefs:root=General&path=Bluetooth  
+    prefs:root=General&path=Bluetooth 
+    
     [UPDATE]prefs:root=Bluetooth
+    
     prefs:root=General&path=DATE_AND_TIME
     prefs:root=FACETIME
     prefs:root=General
