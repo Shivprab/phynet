@@ -4,9 +4,7 @@ Apple will reject apps that are using private url schemes (Ugh, Apple....) if th
 
 Sometimes we need to open Setting's Preferences not of our app, but of the iPhone itself. What should we do to acomplish this?
 
-**[UPDATE: Added Wallet And Apple Pay below]**
-
-**[UPDATE: Changed prefs for Bluetooth]**
+***[UPDATE : Not yet tested in iOS 10. It will fail because of policies changes in URL scheme handling.]
 
 
 ![keyboard](https://cloud.githubusercontent.com/assets/724536/9033179/41e2d7be-39c5-11e5-8c25-8d123923ae94.gif)
