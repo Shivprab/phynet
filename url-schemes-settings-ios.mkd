@@ -3,7 +3,7 @@ _Apple will reject apps that are using private url schemes (Ugh, Apple....) if t
 
 ###***[UPDATE : Not yet tested in iOS 10. It will fail because of policies changes in URL scheme handling.]***
 
-###***[UPDATE 2:The openURL() method of UIApplication is now firmly deprecated. You should use application(_:open:options:) instead]***
+###***[UPDATE 2:The openURL() method of UIApplication is now deprecated. You should use application(_:open:options:) instead]***
 
 Sometimes we need to open Setting's Preferences not of our app, but of the iPhone itself. What should we do to acomplish this?
 
