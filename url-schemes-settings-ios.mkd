@@ -21,6 +21,11 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
 ##Swift 1.2
     
      UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=General&path=Keyboard")!)
+     
+ ##Swift 3.0
+ This is a work around, but sometimes it crashes. Thanks Xcode 8.
+      UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
+
 
 ##Objective-c
 
