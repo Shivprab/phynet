@@ -1,7 +1,7 @@
 ###Note 
 _Apple will reject apps that are using private url schemes (Ugh, Apple....) if they are pretty much obvius. Some apps are rejected and others are not, so, be aware of this issue before implementing any of those URL's in your app as a feature._
 
-###[UPDATE : Not yet tested in iOS 10. It will fail because of policies changes in URL scheme handling.]***
+###[UPDATE : Not yet tested in iOS 10. It will fail because of policies changes in URL scheme handling.]
 
 ###[UPDATE 2:The openURL() method of UIApplication is now deprecated. You should use application(_:open:options:) instead]
 
