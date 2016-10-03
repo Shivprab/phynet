@@ -3,7 +3,7 @@ _Apple will reject apps that are using private url schemes (Ugh, Apple....) if t
 
 ~~###***[UPDATE : Not yet tested in iOS 10. It will fail because of policies changes in URL scheme handling.]***~~
 
-~~###***~~[UPDATE 2:The openURL() method of UIApplication is now deprecated. You should use application(_:open:options:) instead]***~~
+###***~~[UPDATE 2:The openURL() method of UIApplication is now deprecated. You should use application(_:open:options:) instead]***~~
 
 ##[UPDATE 3: For now you just can use url schemes to open your apps's settings with Swift 3.0 (Xcode 8). I'll keep you informed when OS preferences can be reached]
 
