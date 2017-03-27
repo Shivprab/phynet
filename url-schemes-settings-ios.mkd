@@ -48,54 +48,54 @@ More info:
 
 **And there you have all the url's available:**
     
-| Command | Description |
-| --- | --- |
-| `prefs:` | The **topmost level** General |
-| `prefs:root=General&path=About` | About |
-| `prefs:root=General&path=ACCESSIBILITY` | Accessibility |
-| `prefs:root=ACCOUNT_SETTINGS` | Account Settings |
-| `prefs:root=AIRPLANE_MODE` | Airplane Mode |
-| `prefs:root=General&path=AUTOLOCK` | Autolock |
-| `shoebox://url-scheme` | Apple Pay / Wallet |
-| `prefs:root=BATTERY_USAGE` | Batery |
-| `prefs:root=Brightness` | Brightness |
-| `prefs:root=General&path=Bluetooth` | Bluetooth iOS < 9 |
-| `prefs:root=Bluetooth` | Bluetooth iOS > 9 |
-| `prefs:root=CASTLE` | Castle |
-| `prefs:root=General&path=USAGE/CELLULAR_USAGE` | Cellular Usage |
-| `prefs:root=General&path=ManagedConfigurationList` | Configuration List|
-| `prefs:root=General&path=DATE_AND_TIME` | Date and Time |
-| `prefs:root=FACETIME` | Facetime |
-| `prefs:root=General` | General |
-| `prefs:root=INTERNET_TETHERING` | Internet Tethering|
-| `prefs:root=MUSIC` | iTunes |
-| `prefs:root=MUSIC&path=EQ` | iTunes Equalizer|
-| `prefs:root=MUSIC&path=VolumeLimit` | iTunes Volume |
-| `prefs:root=General&path=Keyboard` | Keyboard |
-| `prefs:root=General&path=INTERNATIONAL` | Lang International |
-| `prefs:root=LOCATION_SERVICES` | Location Services |
-| `prefs:root=General&path=Network` | Network|
-| `prefs:root=NIKE_PLUS_IPOD` | Nike iPod |
-| `prefs:root=NOTES` | Notes|
-| `prefs:root=NOTIFICATIONS_ID` | Notifications ID |
-| `prefs:root=PASSBOOK` | Passbook |
-| `prefs:root=Phone` | Phone|
-| `prefs:root=Photos` | Photo Camera Roll |
-| `prefs:root=General&path=Reset` | Reset |
-| `prefs:root=Sounds&path=Ringtone` | Ringtone|
-| `prefs:root=SIRI` | Siri|
-| `prefs:root=Safari` | Safari |
-| `prefs:root=General&path=Assistant` | Siri|
-| `prefs:root=Sounds` | Sounds |
-| `prefs:root=General&path=SOFTWARE_UPDATE_LINK` | Software Update|
-| `prefs:root=CASTLE&path=STORAGE_AND_BACKUP` | Storage & Backup |
-| `prefs:root=STORE` | Store |
-| `prefs:root=TWITTER` | Twitter|
-| `prefs:root=General&path=USAGE` | Usage |
-| `prefs:root=VIDEO` | Video|
-| `prefs:root=General&path=Network/VPN` | VPN |
-| `prefs:root=Wallpaper` | Wallpaper|
-| `prefs:root=WIFI` | WIFI |
+| Command Swift < 3 OR Objc | Swift 3 | Description |
+| --- | --- | --- |
+| `prefs:` | `App-Prefs:` | The **topmost level** General |
+| `prefs:root=General&path=About` | `App-Prefs:root=General&path=About` | About |
+| `prefs:root=General&path=ACCESSIBILITY` | `App-Prefs:root=General&path=ACCESSIBILITY` | Accessibility |
+| `prefs:root=ACCOUNT_SETTINGS` |`App-Pref:root=ACCOUNT_SETTINGS` | Account Settings |
+| `prefs:root=AIRPLANE_MODE` | `App-Pref:root=AIRPLANE_MODE` | Airplane Mode |
+| `prefs:root=General&path=AUTOLOCK` | `App-Pref:root=General&path=AUTOLOCK` | Autolock |
+| `shoebox://url-scheme` | `shoebox://url-scheme` | Apple Pay / Wallet |
+| `prefs:root=BATTERY_USAGE` | `App-Pref:root=BATTERY_USAGE` | Batery |
+| `prefs:root=Brightness` | `App-Pref:root=Brightness` | Brightness |
+| `prefs:root=General&path=Bluetooth` | `App-Pref:root=General&path=Bluetooth` | Bluetooth iOS < 9 |
+| `prefs:root=Bluetooth` | `App-Pref:root=Bluetooth` | Bluetooth iOS > 9 |
+| `prefs:root=CASTLE` | `App-Pref:root=CASTLE` | Castle |
+| `prefs:root=General&path=USAGE/CELLULAR_USAGE` | `App-Pref:root=General&path=USAGE/CELLULAR_USAGE` | Cellular Usage |
+| `prefs:root=General&path=ManagedConfigurationList` | `App-Pref:root=General&path=ManagedConfigurationList` | Configuration List|
+| `prefs:root=General&path=DATE_AND_TIME` | `App-Pref:root=General&path=DATE_AND_TIME` | Date and Time |
+| `prefs:root=FACETIME` | `App-Pref:root=FACETIME` | Facetime |
+| `prefs:root=General` | `App-Pref:root=General` | General |
+| `prefs:root=INTERNET_TETHERING` | `App-Pref:root=INTERNET_TETHERING` | Internet Tethering|
+| `prefs:root=MUSIC` | `App-Pref:root=MUSIC` | iTunes |
+| `prefs:root=MUSIC&path=EQ` | `App-Pref:root=MUSIC&path=EQ` | iTunes Equalizer|
+| `prefs:root=MUSIC&path=VolumeLimit` | `App-Pref:root=MUSIC&path=VolumeLimit` | iTunes Volume |
+| `prefs:root=General&path=Keyboard` | `App-Pref:root=General&path=Keyboard` | Keyboard |
+| `prefs:root=General&path=INTERNATIONAL` | `App-Pref:root=General&path=INTERNATIONAL` | Lang International |
+| `prefs:root=LOCATION_SERVICES` | `App-Pref:root=LOCATION_SERVICES` | Location Services |
+| `prefs:root=General&path=Network` | `App-Pref:root=General&path=Network` | Network|
+| `prefs:root=NIKE_PLUS_IPOD` | `App-Pref:root=NIKE_PLUS_IPOD` | Nike iPod |
+| `prefs:root=NOTES` |`App-Pref:root=NOTES` |  Notes|
+| `prefs:root=NOTIFICATIONS_ID` | `App-Pref:root=NOTIFICATIONS_ID` | Notifications ID |
+| `prefs:root=PASSBOOK` | `App-Pref:root=PASSBOOK` | Passbook |
+| `prefs:root=Phone` | `App-Pref:root=Phone` | Phone|
+| `prefs:root=Photos` | `App-Pref:root=Photos` | Photo Camera Roll |
+| `prefs:root=General&path=Reset` | `App-Pref:root=General&path=Reset` | Reset |
+| `prefs:root=Sounds&path=Ringtone` | `App-Pref:root=Sounds&path=Ringtone` | Ringtone|
+| `prefs:root=SIRI` | `App-Pref:root=SIRI` | Siri|
+| `prefs:root=Safari` | `App-Pref:root=Safari` | Safari |
+| `prefs:root=General&path=Assistant` | `App-Pref:root=General&path=Assistant` | Siri|
+| `prefs:root=Sounds` | `App-Pref:root=Sounds` | Sounds |
+| `prefs:root=General&path=SOFTWARE_UPDATE_LINK` | `App-Pref:root=General&path=SOFTWARE_UPDATE_LINK` | Software Update|
+| `prefs:root=CASTLE&path=STORAGE_AND_BACKUP` | `App-Pref:root=CASTLE&path=STORAGE_AND_BACKUP` | Storage & Backup |
+| `prefs:root=STORE` | `App-Pref:root=STORE` | Store |
+| `prefs:root=TWITTER` | `App-Pref:root=TWITTER` | Twitter|
+| `prefs:root=General&path=USAGE` | `App-Pref:root=General&path=USAGE` | Usage |
+| `prefs:root=VIDEO` | `App-Pref:root=VIDEO` | Video|
+| `prefs:root=General&path=Network/VPN` | `App-Pref:root=General&path=Network/VPN` | VPN |
+| `prefs:root=Wallpaper` | `App-Pref:root=Wallpaper` | Wallpaper|
+| `prefs:root=WIFI` | `App-Pref:root=WIFI` | WIFI |
 
 ### Bluetooth
 As [@johnny77221](https://gist.github.com/johnny77221) mention in comments, he impleted a way to open bluetooth settings, read in link above:
