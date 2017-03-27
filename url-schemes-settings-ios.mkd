@@ -34,9 +34,9 @@ Open SO's preferences:
      
       UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
 
-Not tested yet: open app's preferences:   
+Open app's preferences:   
  
-      UIApplication.sharedApplication().openURL(NSURL(string:"App-Prefs:root=General&path=Keyboard")!)
+      UIApplication.shared.openURL(NSURL(string:"App-Prefs:root=General&path=Keyboard")! as URL)
 
 
 ## Objective-c
