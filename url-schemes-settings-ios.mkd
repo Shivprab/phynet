@@ -56,7 +56,8 @@ More info:
 | `prefs:root=ACCOUNT_SETTINGS` | Account Settings |
 | `prefs:root=AIRPLANE_MODE` | Airplane Mode |
 | `prefs:root=General&path=AUTOLOCK` | Autolock |
-| `prefs:root=General&path=BATERY` | Batery |
+| `shoebox://url-scheme` | Apple Pay / Wallet |
+| `prefs:root=BATTERY_USAGE` | Batery |
 | `prefs:root=Brightness` | Brightness |
 | `prefs:root=General&path=Bluetooth` | Bluetooth iOS < 9 |
 | `prefs:root=Bluetooth` | Bluetooth iOS > 9 |
@@ -82,6 +83,7 @@ More info:
 | `prefs:root=Photos` | Photo Camera Roll |
 | `prefs:root=General&path=Reset` | Reset |
 | `prefs:root=Sounds&path=Ringtone` | Ringtone|
+| `prefs:root=SIRI` | Siri|
 | `prefs:root=Safari` | Safari |
 | `prefs:root=General&path=Assistant` | Siri|
 | `prefs:root=Sounds` | Sounds |
@@ -94,3 +96,10 @@ More info:
 | `prefs:root=General&path=Network/VPN` | VPN |
 | `prefs:root=Wallpaper` | Wallpaper|
 | `prefs:root=WIFI` | WIFI |
+
+### Bluetooth
+As @johnny77221 mentionet in comments, he impleted a way to open bluetooth settings, read in link above:
+https://gist.github.com/johnny77221/bcaa5384a242b64bfd0b8a715f48e69f
+
+### Apple Pay / Wallet
+shoebox://
