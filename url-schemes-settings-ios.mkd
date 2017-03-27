@@ -33,6 +33,7 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
  
 Open SO's preferences only #available(iOS 10.0, *):
 
+
      ```swift
         UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
       ```
