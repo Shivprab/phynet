@@ -22,27 +22,31 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
  2.- Later, just write the code with the URL path of the preference needed. In my case was the keyboard path.
 
 ## Swift 1.2
-    
+    ```swift
      UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=General&path=Keyboard")!)
-     
+     ```
 
 ## Swift 3.0
  
  This is a work around to open your app's preferences, but it will crash if you don't have any. Still we don't know yet how to open iPhone preferences. 
  
 Open SO's preferences only #available(iOS 10.0, *):
-     
+
+     ```swift
       UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
+      ```
 
 Open app's preferences:   
  
+   ```swift
       UIApplication.shared.openURL(NSURL(string:"App-Prefs:root=General&path=Keyboard")! as URL)
-
+   ```
 
 ## Objective-c
 
+  ```objective-c
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=General&path=Keyboard"]];
-
+  ```
 
 More info:
 
