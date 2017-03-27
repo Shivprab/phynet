@@ -1,4 +1,4 @@
-###Note 
+### Note 
 _Apple will reject apps that are using private url schemes (Ugh, Apple....) if they are pretty much obvius. Some apps are rejected and others are not, so, be aware of this issue before implementing any of those URL's in your app as a feature._
 
 ~~***[UPDATE : Not yet tested in iOS 10. It will fail because of policies changes in URL scheme handling.]***~~
@@ -21,19 +21,19 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
 
  2.- Later, just write the code with the URL path of the preference needed. In my case was the keyboard path.
 
-##Swift 1.2
+## Swift 1.2
     
      UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=General&path=Keyboard")!)
      
 
-##Swift 3.0
+## Swift 3.0
  
  This is a work around to open your app's preferences, but it will crash if you don't have any. Still we don't know yet how to open iPhone preferences. 
  
       UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
 
 
-##Objective-c
+## Objective-c
 
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=General&path=Keyboard"]];
 
