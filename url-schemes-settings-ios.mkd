@@ -107,12 +107,12 @@ by [https://gist.github.com/luismadrigal](@luismadrigal)
     shoebox://
 
 ### Cordova Plugin
-[https://gist.github.com/guyromb](@guyromb) made a cordova plugin
+[@guyromb](https://gist.github.com/guyromb) made a cordova plugin
 https://github.com/guyromb/Cordova-open-native-settings/blob/master/src/ios/NativeSettings.m
 
 ### A cocopods plugin
-it seems [https://gist.github.com/yoiang](@yoiang) made a plugin for cocoapods. Seems is not updated to iOS > 10 but you can contribute to his project if you like it ;)
+it seems [@yoiang](https://gist.github.com/yoiang) made a plugin for cocoapods. Seems is not updated to iOS > 10 but you can contribute to his project if you like it ;)
 
 https://github.com/Adorkable/SettingsAppAccessiOS
 
-Contributions: [https://gist.github.com/antonjn](@antonjn), [https://gist.github.com/mikengyn](@mikengyn), [https://gist.github.com/johnny77221](@johnny77221), [https://gist.github.com/luismadrigal](@luismadrigal), [https://gist.github.com/guyromb](@guyromb), [https://gist.github.com/yoiang](@yoiang)
+Contributions: [@antonjn](https://gist.github.com/antonjn), [@mikengyn](https://gist.github.com/mikengyn), [@johnny77221](https://gist.github.com/johnny77221), [@luismadrigal](https://gist.github.com/luismadrigal), [@guyromb](https://gist.github.com/guyromb), [@yoiang](https://gist.github.com/yoiang)
