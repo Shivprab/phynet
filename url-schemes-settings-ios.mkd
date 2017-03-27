@@ -23,9 +23,9 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
 
 ## Swift 1.2
 
-    ```swift
-       UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=General&path=Keyboard")!)
-    ```
+```swift
+   UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=General&path=Keyboard")!)
+```
 
 ## Swift 3.0
  
@@ -33,9 +33,9 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
  
 Open SO's preferences only #available(iOS 10.0, *):
 
-     ```swift
-         UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
-     ```
+```swift
+     UIApplication.shared.open(URL(string:UIApplicationOpenSettingsURLString)!)
+```
       
 
 Open app's preferences:   
