@@ -22,6 +22,7 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
  2.- Later, just write the code with the URL path of the preference needed. In my case was the keyboard path.
 
 ## Swift 1.2
+
     ```swift
      UIApplication.sharedApplication().openURL(NSURL(string:"prefs:root=General&path=Keyboard")!)
      ```
