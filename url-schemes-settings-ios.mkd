@@ -98,8 +98,21 @@ More info:
 | `prefs:root=WIFI` | WIFI |
 
 ### Bluetooth
-As @johnny77221 mentionet in comments, he impleted a way to open bluetooth settings, read in link above:
+As [https://gist.github.com/johnny77221](@johnny77221) mention in comments, he impleted a way to open bluetooth settings, read in link above:
 https://gist.github.com/johnny77221/bcaa5384a242b64bfd0b8a715f48e69f
 
 ### Apple Pay / Wallet
-shoebox://
+by [https://gist.github.com/luismadrigal](@luismadrigal)
+
+    shoebox://
+
+### Cordova Plugin
+[https://gist.github.com/guyromb](@guyromb) made a cordova plugin
+https://github.com/guyromb/Cordova-open-native-settings/blob/master/src/ios/NativeSettings.m
+
+### A cocopods plugin
+it seems [https://gist.github.com/yoiang](@yoiang) made a plugin for cocoapods. Seems is not updated to iOS > 10 but you can contribute to his project if you like it ;)
+
+https://github.com/Adorkable/SettingsAppAccessiOS
+
+Contributions: [https://gist.github.com/antonjn](@antonjn), [https://gist.github.com/mikengyn](@mikengyn), [https://gist.github.com/johnny77221](@johnny77221), [https://gist.github.com/luismadrigal](@luismadrigal), [https://gist.github.com/guyromb](@guyromb), [https://gist.github.com/yoiang](@yoiang)
