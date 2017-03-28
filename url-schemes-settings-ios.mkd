@@ -31,7 +31,7 @@ Sometimes we need to open Setting's Preferences not of our app, but of the iPhon
 
 ## Swift 3.0
  
- This is a work around to open your app's preferences, but it will crash if you don't have any. Still we don't know yet how to open iPhone preferences. 
+ This is a work around to open your app's preferences, but it will crash if you don't have any. 
  
 Open SO's preferences only #available(iOS 10.0, *):
 
