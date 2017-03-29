@@ -80,6 +80,7 @@ More info:
 | `prefs:root=MUSIC&path=EQ` | `App-Pref:root=MUSIC&path=EQ` | iTunes Equalizer|
 | `prefs:root=MUSIC&path=VolumeLimit` | `App-Pref:root=MUSIC&path=VolumeLimit` | iTunes Volume |
 | `prefs:root=General&path=Keyboard` | `App-Pref:root=General&path=Keyboard` | Keyboard |
+| `prefs:root=General&path=Keyboard/KEYBOARDS` | `App-Pref:root=General&path=Keyboard/KEYBOARDS` | Deeper in Keyboard |
 | `prefs:root=General&path=INTERNATIONAL` | `App-Pref:root=General&path=INTERNATIONAL` | Lang International |
 | `prefs:root=LOCATION_SERVICES` | `App-Pref:root=LOCATION_SERVICES` | Location Services |
 | `prefs:root=General&path=Network` | `App-Pref:root=General&path=Network` | Network|
