@@ -73,6 +73,7 @@ More info:
 | `prefs:root=General&path=USAGE/CELLULAR_USAGE` | `App-Pref:root=General&path=USAGE/CELLULAR_USAGE` | Cellular Usage |
 | `prefs:root=General&path=ManagedConfigurationList` | `App-Pref:root=General&path=ManagedConfigurationList` | Configuration List|
 | `prefs:root=General&path=DATE_AND_TIME` | `App-Pref:root=General&path=DATE_AND_TIME` | Date and Time |
+| `prefs:root=General&path=DO_NOT_DISTURB` | `App-Pref:root=General&path=DO_NOT_DISTURB` | Do not disturb |
 | `prefs:root=FACETIME` | `App-Pref:root=FACETIME` | Facetime |
 | `prefs:root=General` | `App-Pref:root=General` | General |
 | `prefs:root=INTERNET_TETHERING` | `App-Pref:root=INTERNET_TETHERING` | Internet Tethering|
