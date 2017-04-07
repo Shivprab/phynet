@@ -108,12 +108,13 @@ More info:
 | WIFI | `prefs:root=WIFI` | `App-Pref:root=WIFI` |
 
 
-###Open other App's Notification settings
+### Open other App's Notification settings
 
 An app that **HAS** notifications enabled, can open his notification settings. For that you need the **bundleID** added in path:
 
-`UIApplication.shared.openURL(NSURL(string:"App-prefs:root=NOTIFICATIONS_ID&path=com.microsoft.Office.Word")! as URL)
-`
+   ```swift
+      UIApplication.shared.openURL(NSURL(string:"App-prefs:root=NOTIFICATIONS_ID&path=com.microsoft.Office.Word")! as URL)
+   ```
 
 Finding an app's bundle identifier of any app:
 
