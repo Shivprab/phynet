@@ -110,7 +110,7 @@ More info:
 
 ### Open other App's Notification settings
 
-An app that **HAS** notifications enabled, can open his notification settings. For that you need the **bundleID** added in path:
+You can open any app notification's settings, only if that app **HAS** notifications enabled. For that you need the **bundleID** added in path:
 
    ```swift
       UIApplication.shared.openURL(NSURL(string:"App-prefs:root=NOTIFICATIONS_ID&path=com.microsoft.Office.Word")! as URL)
