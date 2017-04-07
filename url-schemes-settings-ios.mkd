@@ -107,6 +107,25 @@ More info:
 | Wallpaper | `prefs:root=Wallpaper` | `App-Pref:root=Wallpaper` |
 | WIFI | `prefs:root=WIFI` | `App-Pref:root=WIFI` |
 
+
+###Open other App's Notification settings
+
+An app that **HAS** notifications enabled, can open his notification settings. For that you need the **bundleID** added in path:
+
+`UIApplication.shared.openURL(NSURL(string:"App-prefs:root=NOTIFICATIONS_ID&path=com.microsoft.Office.Word")! as URL)
+`
+
+Finding an app's bundle identifier of any app:
+
+> Find the app you are looking for on the Apple AppStore. For this example, we’ll use Yelp: https://itunes.apple.com/us/app/yelp/id284910350?mt=8
+> Copy the app ID number. It’s just the numbers after the text “id” and before the “?”. So in this case, it is: 284910350.
+> Paste that ID number into this URL: 
+> https://itunes.apple.com/lookup?id=284910350
+> This will download a file **1.txt**
+> Search the output you get back for “**bundleId**”. The app’s bundle ID will be listed there: com.yelp.yelpiphone
+
+source: https://kb.acronis.com/content/39368
+
 ### Bluetooth
 As [@johnny77221](https://gist.github.com/johnny77221) mention in comments, he impleted a way to open bluetooth settings, read in link above:
 
