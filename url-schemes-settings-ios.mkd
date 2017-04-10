@@ -1,7 +1,7 @@
 ### Note 
 _Apple will reject apps that are using private url schemes (Ugh, Apple....) if they are pretty much obvius. Some apps are rejected and others are not, so, be aware of this issue before implementing any of those URL's in your app as a feature._
 
-### [UPDATE 4] apparently settings now can be reached using App-Pref instead of prefs
+### [UPDATE 4] iOS 10 update: apparently settings now can be reached using App-Pref instead of prefs
 
 ~~[UPDATE 3: For now you just can use url schemes to open your apps's settings with Swift 3.0 (Xcode 8). I'll keep you informed when OS preferences can be reached]~~
 
