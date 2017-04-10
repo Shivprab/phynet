@@ -43,7 +43,7 @@ Open SO's preferences only #available(iOS 10.0, *):
 Open app's preferences:   
  
    ```swift
-      UIApplication.shared.openURL(NSURL(string:"App-Prefs:root=General&path=Keyboard")! as URL)
+      UIApplication.shared.open(URL(string:"App-Prefs:root=General&path=Keyboard")!)
    ```
 
 ## Objective-c
@@ -145,6 +145,14 @@ https://github.com/guyromb/Cordova-open-native-settings/blob/master/src/ios/Nati
 it seems [@yoiang](https://gist.github.com/yoiang) made a plugin for cocoapods. Although it appears that is not updated to iOS > 10 but you can contribute to his project if you like it ;)
 
 https://github.com/Adorkable/SettingsAppAccessiOS
+
+## Open App Store
+
+
+   ```swift
+      UIApplication.shared.openURL(URL(string: "itms-apps://itunes.apple.com/app/id" + appStoreAppID)!)
+   ```
+
 
 ## Contributions: 
 
