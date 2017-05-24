@@ -13,7 +13,7 @@ _Apple will reject apps that are using private url schemes (Ugh, Apple....) if t
 
 ### Testing
 
-Download [this Workflow](https://workflow.is/workflows/5e26afaedcb8497b898adb27b0b8ce9f) to find and test new `App-prefs:` URL Schemes
+Download [this Workflow](https://workflow.is/workflows/5e26afaedcb8497b898adb27b0b8ce9f) to find and test new `App-prefs:` URL Schemes by [@deanlyoung](https://gist.github.com/deanlyoung)
 
 ### Other Apps' Settings
 
