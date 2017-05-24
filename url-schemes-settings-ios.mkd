@@ -62,9 +62,9 @@ More info:
 
  ### URL Schemes
     
-| Command Swift < 3 OR Objc | Swift 3 | Description |
+| Description | Command Swift < 3 OR Objc | Swift 3 |
 | --- | --- | --- |
-| Settings Section **topmost level** | From Widget (`Prefs:`) | From App (`App-Prefs:`) |
+| Settings Section **topmost level** | From Widget (`Prefs:`) | From App (`App-prefs:`) |
 | About | `prefs:root=General&path=About` | `App-prefs:root=General&path=About` |
 | Accessibility | `prefs:root=General&path=ACCESSIBILITY` | `App-prefs:root=General&path=ACCESSIBILITY` |
 | Account Settings | `prefs:root=ACCOUNT_SETTINGS` |`App-pref:root=ACCOUNT_SETTINGS` |
