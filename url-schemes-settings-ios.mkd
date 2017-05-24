@@ -70,7 +70,7 @@ More info:
 | Account Settings | `prefs:root=ACCOUNT_SETTINGS` |`App-pref:root=ACCOUNT_SETTINGS` |
 | Airplane Mode | `prefs:root=AIRPLANE_MODE` | `App-pref:root=AIRPLANE_MODE` |
 | Autolock iOS < 10 | `prefs:root=General&path=AUTOLOCK` | `App-pref:root=General&path=AUTOLOCK`  |
-| Auto-Lock iOS > 10 | `Prefs:root=DISPLAY&path=AUTOLOCK` | `App-prefs:root=DISPLAY&path=AUTOLOCK` |
+| Auto-Lock iOS > 10 | `prefs:root=DISPLAY&path=AUTOLOCK` | `App-prefs:root=DISPLAY&path=AUTOLOCK` |
 | Apple Pay / Wallet | `shoebox://url-scheme` | `shoebox://url-scheme` |
 | Batery | `prefs:root=BATTERY_USAGE` | `App-pref:root=BATTERY_USAGE` |
 | Brightness | `prefs:root=Brightness` | `App-pref:root=Brightness` |
@@ -105,7 +105,7 @@ More info:
 | Siri | `prefs:root=SIRI` | `App-pref:root=SIRI` |
 | Safari | `prefs:root=Safari` | `App-pref:root=Safari` |
 | Siri iOS < 10? | `prefs:root=General&path=Assistant` | `App-pref:root=General&path=Assistant` |
-| Siri iOS > 10? | `Prefs:root=SIRI` | `App-prefs:root=SIRI` |
+| Siri iOS > 10? | `prefs:root=SIRI` | `App-prefs:root=SIRI` |
 | Sounds | `prefs:root=Sounds` | `App-pref:root=Sounds` |
 | Software Update | `prefs:root=General&path=SOFTWARE_UPDATE_LINK` | `App-pref:root=General&path=SOFTWARE_UPDATE_LINK` |
 | Storage & Backup | `prefs:root=CASTLE&path=STORAGE_AND_BACKUP` | `App-pref:root=CASTLE&path=STORAGE_AND_BACKUP` |
