@@ -90,7 +90,7 @@ More info:
 | Keyboard | `prefs:root=General&path=Keyboard` | `App-pref:root=General&path=Keyboard`  |
 | Deeper in Keyboard | `prefs:root=General&path=Keyboard/KEYBOARDS` | `App-pref:root=General&path=Keyboard/KEYBOARDS`  |
 | Lang International | `prefs:root=General&path=INTERNATIONAL` | `App-pref:root=General&path=INTERNATIONAL`  |
-| ~~Location Services | `Prefs:root=LOCATION_SERVICES` | `App-prefs:root=LOCATION_SERVICES`  |~~
+| ~~Location Services | `prefs:root=LOCATION_SERVICES` | `App-prefs:root=LOCATION_SERVICES`  |~~
 | Network | `prefs:root=General&path=Network` | `App-pref:root=General&path=Network` |
 | Nike iPod | `prefs:root=NIKE_PLUS_IPOD` | `App-pref:root=NIKE_PLUS_IPOD`|
 |  Notes | `prefs:root=NOTES` |`App-pref:root=NOTES` |
