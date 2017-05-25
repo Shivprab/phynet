@@ -3,7 +3,7 @@ _Apple will reject apps that are using private url schemes (Ugh, Apple....) if t
 
 ### Colaborations
 
-If you want to ask anything, or do a change in the document, please go to github's repo [repo](https://github.com/phynet/iOS-Schemes) because gist does not have notifications feature, and neither myself or anyone could know when someone needs help or want to know soemthing in particular. Thank U :)
+If you want to ask anything, or do a change in the document, please go to github's repo [https://github.com/phynet/iOS-Schemes](https://github.com/phynet/iOS-Schemes) because gist does not have notifications feature, and neither myself or anyone could know when someone needs help or want to know soemthing in particular. Thank U :)
 
 ### Updates
 
